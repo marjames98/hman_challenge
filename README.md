@@ -1,6 +1,6 @@
-# Hangman Challenge
+# H----man Challenge 
 
-You will be building the classic hangman game in Python. In hangman, a secret word is chosen and the user tries to guess each letter. Each correct guess reveals all instances of that letter. Each incorrect guess draws another body part on the poor guy getting hanged. The user wins if they reveal the entire word. They lose if the whole person is drawn on the noose.
+You will be building the classic h-man game in Python. In h-man, a secret word is chosen and the user tries to guess each letter. Each correct guess reveals all instances of that letter. Each incorrect guess draws another body part on the poor guy getting hanged. The user wins if they reveal the entire word. They lose if the whole person is drawn on the noose.
 
 ## Functionality
 
@@ -13,21 +13,21 @@ You will be building the classic hangman game in Python. In hangman, a secret wo
 
 ### Hints
 
-* Your game will need some state to keep track of the word, how many letters are yet to be guessed, and the current state of the hangman.
-* You can initially represent the hangman as a decreasing number of guesses remaining.
+* Your game will need some state to keep track of the word, how many letters are yet to be guessed, and the current state of the h-man.
+* You can initially represent the h-man as a decreasing number of guesses remaining.
 * You can use the `in` keyword to test to see if a letter is in the secret word.
 * Remember to account for case differences.
 
 ### Pseudocode
 
 1. Initialize the game: Initialize all variables to default values.
-2. Display hangman or number of guesses remaining.
+2. Display h-man or number of guesses remaining.
 3. Randomly select a secret word.
 4. Display the word as blanks.
 5. Display the letters guessed so far.
 6. Ask the user for a letter.
 7. Determine if letter is correct or incorrect.
-8. If incorrect, add the letter to the guessed list, decrement remaining guesses, and/or draw another bit of the hangman.
+8. If incorrect, add the letter to the guessed list, decrement remaining guesses, and/or draw another bit of the h-man.
 9. If correct, add the letter to the guessed list, redraw the secret word with the new letter(s) showing.
 10. Loop back up to step 6 and continue until the word is fully revealed or guesses are used up.
 
@@ -45,10 +45,10 @@ Being able to render a word as some underscores and some letters will be a littl
 Sometimes a user might have solved the answer without guessing every single letter. As a bonus implement a way for the user to guess the whole phrase instead of just one letter. Preferably, this should be case insensitive!
 
 
-## Notes on drawing your hangman
+## Notes on drawing your h-man
 
 * You decide how many body parts the person gets before completion.
-* You can display any kind of hangman that you want. Initially, you should just use a decrementing number. But if you feel like drawing a little person, you might try something that starts like this:
+* You can display any kind of h-man that you want. Initially, you should just use a decrementing number. But if you feel like drawing a little person, you might try something that starts like this:
 
 ```
 -
